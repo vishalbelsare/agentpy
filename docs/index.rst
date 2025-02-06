@@ -8,12 +8,8 @@ AgentPy - Agent-based modeling in Python
     :target: https://pypi.org/project/agentpy/
 .. image:: https://img.shields.io/github/license/joelforamitti/agentpy
     :target: https://github.com/JoelForamitti/agentpy/blob/master/LICENSE
-.. image:: https://travis-ci.com/JoelForamitti/agentpy.svg?branch=master
-    :target: https://travis-ci.com/JoelForamitti/agentpy
 .. image:: https://readthedocs.org/projects/agentpy/badge/?version=latest
     :target: https://agentpy.readthedocs.io/en/latest/?badge=latest
-.. image:: https://codecov.io/gh/JoelForamitti/agentpy/branch/master/graph/badge.svg?token=NTW99HNGB0
-    :target: https://codecov.io/gh/JoelForamitti/agentpy
 .. image:: https://joss.theoj.org/papers/10.21105/joss.03065/status.svg
     :target: https://doi.org/10.21105/joss.03065
 
@@ -24,9 +20,9 @@ AgentPy - Agent-based modeling in Python
 AgentPy is an open-source library for the development and analysis of agent-based models in Python.
 The framework integrates the tasks of model design, interactive simulations, numerical experiments,
 and data analysis within a single environment. The package is optimized for interactive computing
-with `IPython <http://ipython.org/>`_, `IPySimulate <https://github.com/JoelForamitti/ipysimulate>`_, and `Jupyter <https://jupyter.org/>`_.
-If you have questions or ideas for improvements, please visit the
-`discussion forum <https://github.com/JoelForamitti/agentpy/discussions>`_.
+with `IPython <http://ipython.org/>`_ and `Jupyter <https://jupyter.org/>`_.
+
+**Note:** AgentPy is no longer under active development. For new projects, we recommend using [MESA](https://mesa.readthedocs.io/stable/).
 
 .. rubric:: Quick orientation
 
@@ -57,7 +53,6 @@ Please cite this software as follows:
    guide
    model_library
    reference
-   comparison
    changelog
    contributing
    about
@@ -65,6 +60,6 @@ Please cite this software as follows:
 .. only:: html
 
     .. rubric:: Indices and tables
-    
+
     * :ref:`genindex`
     * :ref:`search`
